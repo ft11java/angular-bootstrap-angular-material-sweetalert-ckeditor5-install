@@ -7,12 +7,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import {CKEditorModule} from '@ckeditor/ckeditor5-angular';
 import { MatSliderModule } from '@angular/material/slider';
+import { HomeComponent } from './home-page-components/home/home.component';
+import { NavbarComponent } from './home-page-components/navbar/navbar.component';
+import { PageNotFoundComponent } from './home-page-components/page-not-found/page-not-found.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NavbarComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

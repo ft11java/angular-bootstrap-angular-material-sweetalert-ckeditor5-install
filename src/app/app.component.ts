@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as ClassicEditor from 'ckeditor5/build/ckeditor';
+
 
 
 @Component({
@@ -9,5 +9,5 @@ import * as ClassicEditor from 'ckeditor5/build/ckeditor';
 })
 export class AppComponent {
   title = 'school-newspapers';
-  public Editor = ClassicEditor;
+ 
 }
